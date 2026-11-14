@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Position</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container my-5">
+
+        <h1 class="text-center mb-5">
+            Bootstrap Position Utilities
+        </h1>
+
+        <!-- 1. Position Static -->
+        <h3 class="mb-3">1. Position Static</h3>
+
+        <div class="position-static bg-primary text-white p-3 mb-5">
+            This is a Static Element.
+        </div>
+
+        <!-- 2. Position Relative -->
+        <h3 class="mb-3">2. Position Relative</h3>
+
+        <div class="position-relative bg-success text-white p-3 mb-5" style="top: 15px;">
+
+            This is a Relative Element.
+
+        </div>
+
+        <!-- 3. Position Absolute -->
+        <h3 class="mb-3">3. Position Absolute</h3>
+
+        <div class="position-relative bg-light border p-5 mb-5" style="height: 180px;">
+
+
+            <h5>Parent Element</h5>
+
+            <div class="position-absolute top-0 end-0 bg-danger text-white p-3">
+
+                Absolute Element
+
+            </div>
+
+        </div>
+
+        <!-- 4. Position Fixed -->
+        <h3 class="mb-3">4. Position Fixed</h3>
+
+        <p>
+            Scroll the page to see the fixed button.
+        </p>
+
+        <button class="position-fixed bottom-0 end-0 m-4 btn btn-primary" style="z-index: 1000;">
+
+            Contact Us
+
+        </button>
+
+        <!-- 5. Position Sticky -->
+        <h3 class="mb-3">5. Position Sticky</h3>
+
+        <nav class="position-sticky top-0 bg-dark text-white p-3">
+            Xenoriq Labs | Sticky Navigation
+        </nav>
+
+        <div class="bg-light p-4">
+            <h4>Scroll Practice</h4>
+
+            <p>
+                Scroll down to observe how the navigation
+                bar sticks to the top of the screen.
+            </p>
+
+            <p>Practice Content 1</p>
+            <p>Practice Content 2</p>
+            <p>Practice Content 3</p>
+            <p>Practice Content 4</p>
+            <p>Practice Content 5</p>
+            <p>Practice Content 6</p>
+            <p>Practice Content 7</p>
+            <p>Practice Content 8</p>
+            <p>Practice Content 9</p>
+            <p>Practice Content 10</p>
+            <p>Practice Content 11</p>
+            <p>Practice Content 12</p>
+            <p>Practice Content 13</p>
+            <p>Practice Content 14</p>
+            <p>Practice Content 15</p>
+
+        </div>
+
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
