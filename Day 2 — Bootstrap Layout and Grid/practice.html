@@ -4,609 +4,88 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Xenoriq Labs | Software Company</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS CDN -->
+    <title>Bootstrap Typography | Xenoriq Labs</title>
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
           rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <style>
-
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        /* Hero Section */
-        .hero {
-            background: #f1f5f9;
-            padding: 100px 0;
-        }
-
-        .hero h1 {
-            font-weight: 800;
-            color: #0f172a;
-        }
-
-        .hero p {
-            color: #64748b;
-        }
-
-        /* Feature Section */
-        .feature-box {
-            border: 1px solid #e2e8f0;
-            border-radius: 12px;
-            padding: 25px;
-            height: 100%;
-            transition: 0.3s;
-        }
-
-        .feature-box:hover {
-            transform: translateY(-5px);
-        }
-
-        /* Service Cards */
-        .service-card {
-            transition: 0.3s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-5px);
-        }
-
-        /* Footer */
-        footer {
-            background: #0f172a;
-            color: white;
-        }
-
-        footer a {
-            color: #cbd5e1;
-            text-decoration: none;
-        }
-
-        footer a:hover {
-            color: white;
-        }
-
-    </style>
-
 </head>
 
 <body>
 
+    <div class="container py-5">
 
-    <!-- ================================= -->
-    <!-- 1. NAVBAR SECTION -->
-    <!-- ================================= -->
+        <!-- Main Heading -->
+        <h1 class="display-4 fw-bold text-primary">
+            Xenoriq Labs
+        </h1>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Lead Paragraph -->
+        <p class="lead text-secondary">
+            Turning Ideas into Technology.
+        </p>
 
-        <div class="container">
+        <hr>
 
-            <!-- Company Logo / Name -->
-            <a class="navbar-brand fw-bold" href="#">
-                Xenoriq Labs
-            </a>
+        <!-- Headings -->
+        <h2 class="fw-bold">Our Services</h2>
 
-            <!-- Mobile Toggle Button -->
-            <button class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#mainNavbar">
+        <h3>Web Development</h3>
 
-                <span class="navbar-toggler-icon"></span>
+        <p>
+            We create modern and responsive websites
+            using the latest technologies.
+        </p>
 
-            </button>
+        <h3>AI & Machine Learning</h3>
 
-            <!-- Navigation Links -->
-            <div class="collapse navbar-collapse" id="mainNavbar">
+        <p>
+            We develop intelligent solutions
+            to solve real-world problems.
+        </p>
 
-                <ul class="navbar-nav ms-auto align-items-lg-center">
+        <hr>
 
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#">
-                            Home
-                        </a>
-                    </li>
+        <!-- Text Utilities -->
+        <h2 class="fw-bold">Text Utilities</h2>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">
-                            Features
-                        </a>
-                    </li>
+        <p class="text-primary fw-bold">
+            Primary Bold Text
+        </p>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">
-                            Services
-                        </a>
-                    </li>
+        <p class="text-success fst-italic">
+            Success Italic Text
+        </p>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">
-                            Contact
-                        </a>
-                    </li>
+        <p class="text-danger text-uppercase">
+            Danger Uppercase Text
+        </p>
 
-                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+        <p class="text-center fw-semibold">
+            Center Aligned Text
+        </p>
 
-                        <a class="btn btn-primary" href="#contact">
-                            Get Started
-                        </a>
+        <p class="text-end text-decoration-underline">
+            Right Aligned Underlined Text
+        </p>
 
-                    </li>
+        <hr>
 
-                </ul>
+        <!-- Font Sizes -->
+        <h2 class="fw-bold">Font Sizes</h2>
 
-            </div>
+        <p class="fs-1">Font Size 1</p>
+        <p class="fs-2">Font Size 2</p>
+        <p class="fs-3">Font Size 3</p>
+        <p class="fs-4">Font Size 4</p>
+        <p class="fs-5">Font Size 5</p>
+        <p class="fs-6">Font Size 6</p>
 
-        </div>
-
-    </nav>
-
-
-    <!-- ================================= -->
-    <!-- 2. HERO SECTION -->
-    <!-- ================================= -->
-
-    <section class="hero">
-
-        <div class="container">
-
-            <div class="row align-items-center">
-
-                <!-- Hero Content -->
-                <div class="col-lg-7">
-
-                    <span class="badge bg-primary mb-3">
-                        Welcome to Xenoriq Labs
-                    </span>
-
-                    <h1 class="display-4 mb-4">
-
-                        Building Modern
-                        <span class="text-primary">
-                            Digital Solutions
-                        </span>
-
-                    </h1>
-
-                    <p class="lead mb-4">
-
-                        We build modern web applications,
-                        scalable software solutions, and
-                        intelligent AI-powered systems
-                        for businesses.
-
-                    </p>
-
-                    <a href="#services"
-                       class="btn btn-primary btn-lg me-2 mb-2">
-
-                        Explore Services
-
-                    </a>
-
-                    <a href="#contact"
-                       class="btn btn-outline-dark btn-lg mb-2">
-
-                        Contact Us
-
-                    </a>
-
-                </div>
-
-
-                <!-- Hero Visual -->
-                <div class="col-lg-5 mt-5 mt-lg-0">
-
-                    <div class="bg-dark text-white rounded-4 p-5 text-center">
-
-                        <h2 class="display-3">🚀</h2>
-
-                        <h3 class="fw-bold">
-                            Xenoriq Labs
-                        </h3>
-
-                        <p class="text-white-50 mb-0">
-
-                            Turning Ideas into Technology
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================================= -->
-    <!-- 3. FEATURES SECTION -->
-    <!-- ================================= -->
-
-    <section class="py-5" id="features">
-
-        <div class="container">
-
-            <!-- Section Heading -->
-            <div class="text-center mb-5">
-
-                <h2 class="fw-bold">
-                    Why Choose Us?
-                </h2>
-
-                <p class="text-secondary">
-
-                    Technology and innovation for modern businesses.
-
-                </p>
-
-            </div>
-
-
-            <div class="row g-4">
-
-                <!-- Feature 1 -->
-                <div class="col-md-4">
-
-                    <div class="feature-box text-center">
-
-                        <h2>💻</h2>
-
-                        <h4 class="fw-bold mt-3">
-                            Modern Technology
-                        </h4>
-
-                        <p class="text-secondary mb-0">
-
-                            We use modern tools and technologies
-                            to build high-quality applications.
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Feature 2 -->
-                <div class="col-md-4">
-
-                    <div class="feature-box text-center">
-
-                        <h2>⚡</h2>
-
-                        <h4 class="fw-bold mt-3">
-                            Scalable Solutions
-                        </h4>
-
-                        <p class="text-secondary mb-0">
-
-                            We develop reliable and scalable
-                            solutions for growing businesses.
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Feature 3 -->
-                <div class="col-md-4">
-
-                    <div class="feature-box text-center">
-
-                        <h2>🤖</h2>
-
-                        <h4 class="fw-bold mt-3">
-                            AI Innovation
-                        </h4>
-
-                        <p class="text-secondary mb-0">
-
-                            We integrate intelligent AI solutions
-                            to improve business productivity.
-
-                        </p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================================= -->
-    <!-- 4. SERVICES CARDS SECTION -->
-    <!-- ================================= -->
-
-    <section class="py-5 bg-light" id="services">
-
-        <div class="container">
-
-            <!-- Section Heading -->
-            <div class="text-center mb-5">
-
-                <h2 class="fw-bold">
-                    Our Services
-                </h2>
-
-                <p class="text-secondary">
-
-                    Explore the solutions we offer.
-
-                </p>
-
-            </div>
-
-
-            <div class="row g-4">
-
-                <!-- Service Card 1 -->
-                <div class="col-md-6 col-lg-4">
-
-                    <div class="card service-card h-100 shadow-sm">
-
-                        <div class="card-body p-4">
-
-                            <h2>🌐</h2>
-
-                            <h4 class="card-title fw-bold mt-3">
-
-                                Web Development
-
-                            </h4>
-
-                            <p class="card-text text-secondary">
-
-                                We create responsive and modern
-                                websites using HTML, CSS,
-                                JavaScript, React and Node.js.
-
-                            </p>
-
-                            <a href="#contact"
-                               class="btn btn-outline-primary">
-
-                                Learn More
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Service Card 2 -->
-                <div class="col-md-6 col-lg-4">
-
-                    <div class="card service-card h-100 shadow-sm">
-
-                        <div class="card-body p-4">
-
-                            <h2>🤖</h2>
-
-                            <h4 class="card-title fw-bold mt-3">
-
-                                AI & Machine Learning
-
-                            </h4>
-
-                            <p class="card-text text-secondary">
-
-                                We develop AI-powered applications,
-                                machine learning models and
-                                intelligent automation systems.
-
-                            </p>
-
-                            <a href="#contact"
-                               class="btn btn-outline-primary">
-
-                                Learn More
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-                <!-- Service Card 3 -->
-                <div class="col-md-6 col-lg-4">
-
-                    <div class="card service-card h-100 shadow-sm">
-
-                        <div class="card-body p-4">
-
-                            <h2>📱</h2>
-
-                            <h4 class="card-title fw-bold mt-3">
-
-                                App Development
-
-                            </h4>
-
-                            <p class="card-text text-secondary">
-
-                                We build modern and user-friendly
-                                mobile applications for
-                                Android and iOS platforms.
-
-                            </p>
-
-                            <a href="#contact"
-                               class="btn btn-outline-primary">
-
-                                Learn More
-
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================================= -->
-    <!-- 5. CONTACT SECTION -->
-    <!-- ================================= -->
-
-    <section class="py-5" id="contact">
-
-        <div class="container text-center">
-
-            <h2 class="fw-bold">
-                Ready to Build Something Great?
-            </h2>
-
-            <p class="text-secondary my-3">
-
-                Let's turn your ideas into powerful digital solutions.
-
-            </p>
-
-            <a href="mailto:info@xenoriqlabs.com"
-               class="btn btn-primary btn-lg">
-
-                Get in Touch
-
-            </a>
-
-        </div>
-
-    </section>
-
-
-    <!-- ================================= -->
-    <!-- 6. FOOTER SECTION -->
-    <!-- ================================= -->
-
-    <footer class="py-5">
-
-        <div class="container">
-
-            <div class="row g-4">
-
-                <!-- Company Information -->
-                <div class="col-md-6 col-lg-5">
-
-                    <h4 class="fw-bold">
-                        Xenoriq Labs
-                    </h4>
-
-                    <p class="text-white-50">
-
-                        A modern software company building
-                        web applications, AI solutions
-                        and scalable digital products.
-
-                    </p>
-
-                    <a href="https://www.xenoriqlabs.com">
-
-                        www.xenoriqlabs.com
-
-                    </a>
-
-                </div>
-
-
-                <!-- Quick Links -->
-                <div class="col-md-3 col-lg-3">
-
-                    <h5 class="fw-bold mb-3">
-                        Quick Links
-                    </h5>
-
-                    <ul class="list-unstyled">
-
-                        <li class="mb-2">
-                            <a href="#">Home</a>
-                        </li>
-
-                        <li class="mb-2">
-                            <a href="#features">Features</a>
-                        </li>
-
-                        <li class="mb-2">
-                            <a href="#services">Services</a>
-                        </li>
-
-                        <li class="mb-2">
-                            <a href="#contact">Contact</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <!-- Contact Information -->
-                <div class="col-md-3 col-lg-4">
-
-                    <h5 class="fw-bold mb-3">
-                        Contact
-                    </h5>
-
-                    <p class="text-white-50">
-                        Email: info@xenoriqlabs.com
-                    </p>
-
-                    <p class="text-white-50">
-                        Founder & CEO: Saif Ur Rahman
-                    </p>
-
-                </div>
-
-            </div>
-
-
-            <!-- Copyright -->
-            <hr class="border-secondary my-4">
-
-            <div class="text-center">
-
-                <p class="text-white-50 mb-0">
-
-                    &copy; 2026 Xenoriq Labs.
-                    All Rights Reserved.
-
-                </p>
-
-            </div>
-
-        </div>
-
-    </footer>
-
-
-    <!-- Bootstrap JavaScript Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </div>
 
 </body>
-
 </html>
