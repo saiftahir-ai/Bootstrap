@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Flex</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container py-5">
+
+        <!-- Main Heading -->
+        <h1 class="display-5 fw-bold text-primary text-center">
+            Xenoriq Labs
+        </h1>
+
+        <p class="lead text-center text-secondary mb-5">
+            Bootstrap Flexbox Practice
+        </p>
+
+        <hr class="my-4">
+
+        <!-- 1. d-flex -->
+        <h3 class="fw-bold mb-3">
+            1. Display Flex
+        </h3>
+
+        <div class="d-flex gap-2 mb-3">
+
+            <div class="bg-primary text-white p-3">
+                Box 1
+            </div>
+
+            <div class="bg-success text-white p-3">
+                Box 2
+            </div>
+
+            <div class="bg-danger text-white p-3">
+                Box 3
+            </div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- 2. Flex Direction -->
+        <h3 class="fw-bold mb-3">
+            2. Flex Direction
+        </h3>
+
+        <!-- Row -->
+        <div class="d-flex flex-row gap-2 mb-3">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <!-- Row Reverse -->
+        <div class="d-flex flex-row-reverse gap-2 mb-3">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <!-- Column -->
+        <div class="d-flex flex-column gap-2 mb-3">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <!-- Column Reverse -->
+        <div class="d-flex flex-column-reverse gap-2 mb-3">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- 3. Justify Content -->
+        <h3 class="fw-bold mb-3">
+            3. Justify Content
+        </h3>
+
+        <div class="d-flex justify-content-start bg-light mb-3">
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+        </div>
+
+        <div class="d-flex justify-content-end bg-light mb-3">
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+        </div>
+
+        <div class="d-flex justify-content-center bg-light mb-3">
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+        </div>
+
+        <div class="d-flex justify-content-between bg-light mb-3">
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+        </div>
+
+        <div class="d-flex justify-content-around bg-light mb-3">
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+        </div>
+
+        <div class="d-flex justify-content-evenly bg-light mb-3">
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+        </div>
+
+        <hr class="my-4">
+
+        <!-- 4. Align Items -->
+        <h3 class="fw-bold mb-3">
+            4. Align Items
+        </h3>
+
+        <div class="d-flex align-items-start gap-2 bg-light mb-3" style="height: 150px;">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <div class="d-flex align-items-center gap-2 bg-light mb-3" style="height: 150px;">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <div class="d-flex align-items-end gap-2 bg-light mb-3" style="height: 150px;">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <div class="d-flex align-items-stretch gap-2 bg-light mb-3" style="height: 150px;">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- 5. Flex Wrapping -->
+        <h3 class="fw-bold mb-3">
+            5. Flex Wrapping
+        </h3>
+
+        <div class="d-flex flex-wrap gap-2 mb-3">
+
+            <div class="bg-primary text-white p-3">Box 1</div>
+            <div class="bg-success text-white p-3">Box 2</div>
+            <div class="bg-danger text-white p-3">Box 3</div>
+            <div class="bg-warning text-dark p-3">Box 4</div>
+            <div class="bg-info text-dark p-3">Box 5</div>
+            <div class="bg-secondary text-white p-3">Box 6</div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- 6. Gap -->
+        <h3 class="fw-bold mb-3">
+            6. Gap
+        </h3>
+
+        <div class="d-flex gap-1 mb-3">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <div class="d-flex gap-3 mb-3">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <div class="d-flex gap-5 mb-3">
+
+            <div class="bg-primary text-white p-3">1</div>
+            <div class="bg-success text-white p-3">2</div>
+            <div class="bg-danger text-white p-3">3</div>
+
+        </div>
+
+        <hr class="my-4">
+
+        <!-- 7. Practical Navbar -->
+        <h3 class="fw-bold mb-3">
+            7. Practical Navbar
+        </h3>
+
+        <nav class="bg-dark text-white p-3">
+
+            <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+
+                <!-- Logo -->
+                <h4 class="mb-0 fw-bold">
+                    Xenoriq Labs
+                </h4>
+
+                <!-- Navigation Links -->
+                <div class="d-flex flex-wrap gap-3">
+
+                    <a href="#" class="text-white text-decoration-none">
+                        Home
+                    </a>
+
+                    <a href="#" class="text-white text-decoration-none">
+                        About
+                    </a>
+
+                    <a href="#" class="text-white text-decoration-none">
+                        Services
+                    </a>
+
+                    <a href="#" class="text-white text-decoration-none">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <hr class="my-4">
+
+        <!-- 8. Practical Cards -->
+        <h3 class="fw-bold mb-3">
+            8. Flex Cards
+        </h3>
+
+        <div class="d-flex flex-wrap gap-3">
+
+            <div class="card flex-fill" style="min-width: 250px;">
+
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        Web Development
+                    </h5>
+
+                    <p class="card-text">
+                        Modern and responsive web applications
+                        using the latest technologies.
+                    </p>
+
+                    <a href="#" class="btn btn-primary">
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="card flex-fill" style="min-width: 250px;">
+
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        AI & Machine Learning
+                    </h5>
+
+                    <p class="card-text">
+                        Intelligent systems and AI-powered
+                        solutions for businesses.
+                    </p>
+
+                    <a href="#" class="btn btn-success">
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="card flex-fill" style="min-width: 250px;">
+
+                <div class="card-body">
+
+                    <h5 class="card-title fw-bold">
+                        Full Stack Development
+                    </h5>
+
+                    <p class="card-text">
+                        Scalable applications using modern
+                        frontend and backend technologies.
+                    </p>
+
+                    <a href="#" class="btn btn-danger">
+                        Learn More
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Footer -->
+        <p class="text-center text-secondary fw-semibold">
+            © 2026 Xenoriq Labs. All Rights Reserved.
+        </p>
+
+    </div>
+
+</body>
+
+</html>
